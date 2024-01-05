@@ -1,0 +1,37 @@
+.BaseTextField {
+    &_Input {
+        height: 100%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &_Group {
+        height: 40px;
+        border: 1px solid #DBE3EF;
+
+        &:focus-within {
+            border: 1px solid #3E97FF;
+        }
+    }
+
+    &_Disabled {
+        border: none;
+        background: #F2F3F7;
+
+        ::placeholder {
+            font-weight: 500;
+            color: #4A5677;
+        }
+    }
+
+    &_Eye {
+        position: absolute;
+        top: 50%;
+        right: 3%;
+    }
+    input::-ms-reveal {
+        display: none;
+    }
+}

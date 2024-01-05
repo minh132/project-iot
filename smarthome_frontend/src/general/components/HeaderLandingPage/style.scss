@@ -1,0 +1,52 @@
+.btnShowSideBar{
+    cursor: pointer;
+}
+
+#overlay-button {
+    cursor: pointer;
+    user-select: none;
+}
+
+#dropdownMenu-loggedIn {
+    display: none;
+
+    &:checked ~ #overlay {
+        visibility: visible;
+    }
+}
+
+#overlay {
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    width: 20rem;
+    background: #fff;
+    visibility: hidden;
+    &.active {
+        visibility: visible;
+    }
+    ul {
+        text-align: center;
+        border-radius: 4px;
+        list-style-type: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        li {
+            border-bottom: 1px solid #bbc1c8;
+            width: 90%;
+            .dropdownMenuItem {
+                display: flex;
+                cursor: pointer;
+                align-items: center;
+                padding: 1rem 2rem;
+                color: #8e8d91;
+                text-decoration: none;
+                font-size: 12px;
+                font-weight: 600;
+            }
+            &:hover {
+                background-color: #f3f6f9;
+            }
+        }
+    }
+}
+

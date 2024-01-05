@@ -1,0 +1,27 @@
+.ButtonNavigateRoom {
+    cursor: pointer;
+    color: #898b95;
+    background-color: #ececec !important;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    transition: all ease 0.2s;
+    &:hover {
+        color: #ffffff;
+        background-color: #3E97FF !important;
+    }
+    &_active {
+        color: #ffffff;
+        background-color: #3E97FF !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .ButtonNavigateRoom {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
+        margin: 0 0.1rem;
+    }
+}

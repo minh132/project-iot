@@ -1,0 +1,11 @@
+.BaseDropdown{
+    .dropdown-menu.show{
+        width: 100% !important;
+    }
+    .dropdown-item:active{
+        background-color: var(--remaining-color) !important;
+    }
+    a.bg-white:hover, a.bg-white:focus, button.bg-white:hover, button.bg-white:focus{
+        background-color: #ffffff !important;
+    }
+}

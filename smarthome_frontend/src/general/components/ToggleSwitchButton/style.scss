@@ -1,0 +1,61 @@
+.switchh {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 68px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switchh input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The sliderr */
+  .sliderr {
+    position: absolute;
+    cursor: pointer;
+    border-radius: 13px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d8dbe4;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .sliderr:before {
+    position: absolute;
+    border-radius: 10px;
+    content: "Off";
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: center;
+    height: 30px;
+    width: 37px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .sliderr {
+    background-color: #7fbcff;
+  }
+  
+  input:hover + .sliderr {
+    box-shadow: 0 .1rem 1rem .25rem rgba(0,0,0,.08);
+  }
+  
+  input:checked + .sliderr:before {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+    content: "On";
+    color: #7fbcff;
+  }

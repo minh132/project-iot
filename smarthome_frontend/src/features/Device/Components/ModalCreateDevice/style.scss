@@ -1,0 +1,12 @@
+.InputNameDevice{
+    width: 100%;
+    border: 1px solid #d0d7de;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    &:focus{
+        outline: none;
+    }
+    &:focus-within{
+        border: 1px solid #3699FF;
+    }
+}

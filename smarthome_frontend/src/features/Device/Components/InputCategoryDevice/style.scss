@@ -1,0 +1,25 @@
+.DeviceItem {
+    background-color: #f3f3f3;
+    transition: ease 0.2s;
+    span {
+        font-size: 1.1rem;
+        margin: 0.5rem;
+    }
+    &:hover {
+        transform: translateY(-3px);
+    }
+
+    &_active {
+        color: #fff;
+        background-color: #3699ff;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .DeviceItem {
+        span {
+            font-size: 1rem;
+            margin: 0.4rem;
+        }
+    }
+}

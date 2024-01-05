@@ -1,0 +1,29 @@
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    @media screen and (max-width: 568px) {
+        right: 5px;
+        transform: scale(0.7);
+        bottom: 15px;
+    }
+    button {
+        background: transparent;
+        border: 0px;
+    }
+    #page-up {
+        &:hover {
+          opacity: 0.8;
+        }
+    }
+    @keyframes scroll-to-top-animation {
+        0% {
+          margin-bottom: -20px;
+          opacity: 0;
+        }
+        100% {
+          margin-bottom: 0px;
+          opacity: 1;
+        }
+    }
+}
