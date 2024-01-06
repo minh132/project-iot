@@ -48,12 +48,40 @@ function HomeScreen(props) {
             navigate("/dashboard");
         }
     };
+    // return (
+    //     <BaseLayout selected="home">
+    //         <div className="HomeScreen flex-column-fluid">
+    //             <InforOfHome />
+    //             <MembersOfHome />
+    //             <RoomsOfHome />
+    //             <DevicesOfHome />
+    //             <div className="container-xxl">
+    //                 <button
+    //                     className="ButtonDanger w-100"
+    //                     onClick={() => setShowModalDeleteHome(true)}
+    //                 >
+    //                     Xóa nhà này
+    //                 </button>
+    //             </div>
+    //             <DialogModal
+    //                 title="Xóa nhà"
+    //                 description={`Bạn có chắc muốn xóa nhà [${currentHome?.name}]`}
+    //                 show={showModalDeleteHome}
+    //                 close={!isDeletingHome}
+    //                 onClose={() => setShowModalDeleteHome(false)}
+    //                 onExecute={handleDeleteHome}
+    //             />
+    //         </div>
+            
+    //     </BaseLayout>
+    // );
+
+    // NamKhanh__Delete RoomsOfHome
     return (
         <BaseLayout selected="home">
             <div className="HomeScreen flex-column-fluid">
                 <InforOfHome />
                 <MembersOfHome />
-                <RoomsOfHome />
                 <DevicesOfHome />
                 <div className="container-xxl">
                     <button
