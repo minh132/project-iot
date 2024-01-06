@@ -20,7 +20,7 @@ function SignUpScreen(props) {
     const navigate = useNavigate();
 
     useEffect(() => {
-        document.title = "Trang đăng ký | SHOME"
+        document.title = "Trang đăng ký | AUTOWATERING"
      }, []);
 
     const formik = useFormik({

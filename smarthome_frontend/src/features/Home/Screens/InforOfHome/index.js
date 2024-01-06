@@ -55,7 +55,7 @@ function InforOfHome(props) {
             <div className="card card-flush mb-9">
                 <div className="card-header d-flex justify-content-between">
                     <div className="font-weight-bolder font-size-h3 text-remaining">
-                        Thông tin nhà
+                        Thông tin vườn
                     </div>
                     <div>
                         {!isEditMode && (
@@ -94,7 +94,7 @@ function InforOfHome(props) {
                 <div className="card-body">
                     <div className="row mb-6">
                         <div className="col-lg-4 pb-1 font-size-lg fw-semibold text-black-50">
-                            Tên nhà
+                            Tên vườn
                         </div>
                         {!isEditMode && (
                             <div className="col-lg-8 pb-1 font-size-lg fw-semibold">
@@ -105,7 +105,7 @@ function InforOfHome(props) {
                             <div className="col-lg-8 pb-1">
                                 <BaseTextField
                                     name="name"
-                                    placeholder="Nhập tên nhà..."
+                                    placeholder="Nhập tên vườn..."
                                     fieldHelper={formik.getFieldHelpers("name")}
                                     fieldProps={formik.getFieldProps("name")}
                                     fieldMeta={formik.getFieldMeta("name")}

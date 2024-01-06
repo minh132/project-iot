@@ -24,7 +24,7 @@ function SignInScreen(props) {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        document.title = "Trang đăng nhập | SHOME"
+        document.title = "Trang đăng nhập | AUTOWATERING"
      }, []);
 
     const formik = useFormik({

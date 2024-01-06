@@ -22,7 +22,7 @@ function HomeScreen(props) {
     const [showModalDeleteHome, setShowModalDeleteHome] = useState(false);
 
     useEffect(() => {
-        document.title = "Trang thông tin nhà | SHOME";
+        document.title = "Trang thông tin vườn | AUTOWATERING";
     }, []);
 
     useEffect(() => {

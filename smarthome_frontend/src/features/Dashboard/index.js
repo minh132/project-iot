@@ -44,7 +44,7 @@ function Dashboard(props) {
     );
 
     useEffect(() => {
-        document.title = "Trang quản lý nhà | SHOME"
+        document.title = "Trang quản lý vườn | AUTOWATERING"
      }, []);
 
     function handleNavigate(url) {
@@ -73,8 +73,8 @@ function Dashboard(props) {
             }
         },
         validationSchema: Yup.object({
-            name: Yup.string().required("Bạn chưa nhập tên nhà"),
-            address: Yup.string().required("Bạn chưa nhập địa chỉ nhà"),
+            name: Yup.string().required("Bạn chưa nhập tên vườn"),
+            address: Yup.string().required("Bạn chưa nhập địa chỉ vườn"),
         }),
     });
 
@@ -167,7 +167,7 @@ function Dashboard(props) {
                                     }`}
                                     onClick={() => setSelected("owner")}
                                 >
-                                    Nhà đang có
+                                    Khu vườn đang có
                                 </div>
                                 <div
                                     className={`ButtonNavigate ${
@@ -176,7 +176,7 @@ function Dashboard(props) {
                                     }`}
                                     onClick={() => setSelected("requesting")}
                                 >
-                                    Nhà đang yêu cầu
+                                    Khu vườn đang yêu cầu
                                 </div>
                                 <div
                                     className={`ButtonNavigate ${
@@ -190,7 +190,7 @@ function Dashboard(props) {
                                         );
                                     }}
                                 >
-                                    Nhà khác
+                                    Khu vườn khác
                                 </div>
                             </div>
                             <div className="d-flex flex-fill justify-content-end align-items-center">
@@ -202,7 +202,7 @@ function Dashboard(props) {
                                     onClick={() => setSelected("create-home")}
                                 >
                                     <i className="far fa-plus-circle me-2"></i>
-                                    Thêm nhà mới
+                                    Thêm khu vườn
                                 </div>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ function Dashboard(props) {
                                                                     );
                                                                 }}
                                                             >
-                                                                Chi tiết nhà
+                                                                Chi tiết vườn
                                                             </button>
                                                         </td>
                                                     </tr>

@@ -24,7 +24,7 @@ function DevicesListScreen(props) {
     );
 
     useEffect(() => {
-        document.title = "Trang danh sách thiết bị | SHOME";
+        document.title = "Trang danh sách thiết bị | AUTOWATERING";
     }, []);
 
     useEffect(() => {

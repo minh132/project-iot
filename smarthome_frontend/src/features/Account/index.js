@@ -33,7 +33,7 @@ function Account(props) {
         (home) => home.status === "requesting"
     );
     useEffect(() => {
-        document.title = "Trang cá nhân | SHOME"
+        document.title = "Trang cá nhân | AUTOWATERING"
      }, []);
 
     const formik = useFormik({
