@@ -39,11 +39,11 @@ function RoomsOfHome(props) {
                 <div className="card-header d-flex justify-content-between">
                     <div>
                         <div className="font-weight-bolder font-size-h3 text-remaining">
-                            Danh sách phòng
+                            Danh sách khu
                         </div>
                         {roomsList?.length > 0 ? (
                             <div className="font-weight-bolder text-black-50 font-size-lg text-remaining">
-                                Tổng cộng: {roomsList?.length} phòng
+                                Tổng cộng: {roomsList?.length} khu
                             </div>
                         ) : (
                             <div className="font-weight-bolder text-black-50 font-size-lg text-remaining">
@@ -55,7 +55,7 @@ function RoomsOfHome(props) {
                         className="ButtonPrimary"
                         onClick={() => setShowModalCreateRoom(true)}
                     >
-                        Thêm phòng
+                        Thêm khu vực
                     </button>
                 </div>
                 <div className="card-body p-0">
@@ -64,7 +64,7 @@ function RoomsOfHome(props) {
                             <thead>
                                 <tr>
                                     <th>STT</th>
-                                    <th>Tên phòng</th>
+                                    <th>Tên khu</th>
                                     <th>Số lượng thiết bị</th>
                                     <th>Thực hiện</th>
                                 </tr>

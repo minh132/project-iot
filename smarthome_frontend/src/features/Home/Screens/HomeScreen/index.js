@@ -89,6 +89,7 @@ function HomeScreen(props) {
             <div className="HomeScreen flex-column-fluid">
                 <InforOfHome />
                 <MembersOfHome />
+                <RoomsOfHome />
                 <DevicesOfHome />
                 <div className="container-xxl">
                         <div className="row">
