@@ -30,7 +30,7 @@ function Lamp(props) {
         <div className="col-12 col-md-6">
             <div className="d-flex flex-column my-5 p-2 border-1 bg-white shadow-sm rounded-xl">
                 <div className="d-flex m-3">
-                    <div className="Camera_Name me-1">Thiết bị đèn</div>
+                    <div className="Camera_Name me-1">Thiết bị bơm nước</div>
                 </div>
                 <div className="row">
                     {lampsList.map((item, index) => (
