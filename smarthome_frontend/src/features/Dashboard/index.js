@@ -59,11 +59,11 @@ function Dashboard(props) {
             const params = {
                 ...values,
             };
-            console.log("Thông tin nhà mới", params);
+            console.log("Thông tin vườn mới", params);
             try {
                 const res = await dispatch(thunkCreateHome(params));
                 if (res) {
-                    ToastHelper.showSuccess(`Thêm nhà thành công`);
+                    ToastHelper.showSuccess(`Thêm vườn thành công`);
                     await dispatch(thunkGetAccountInfor());
                     navigate("/home");
                 }
@@ -322,7 +322,7 @@ function Dashboard(props) {
                                     {otherHomesList?.length > 0 ? (
                                         <div>
                                             <BaseSearchBar
-                                                placeholder="Tìm kiếm nhà"
+                                                placeholder="Tìm kiếm vườn"
                                                 className="mb-5"
                                                 value={filters.q}
                                                 name="homeFilter"
@@ -411,8 +411,8 @@ function Dashboard(props) {
                                             <div>
                                                 <BaseTextField
                                                     name="name"
-                                                    placeholder="Nhập tên ngôi nhà..."
-                                                    label="Nhà"
+                                                    placeholder="Nhập tên khu vườn..."
+                                                    label="Vườn"
                                                     additionLabelClassName="fs-5 fw-bold"
                                                     fieldHelper={formik.getFieldHelpers(
                                                         "name"
@@ -428,7 +428,7 @@ function Dashboard(props) {
                                             <div>
                                                 <BaseTextField
                                                     name="address"
-                                                    placeholder="Nhập địa chỉ ngôi nhà..."
+                                                    placeholder="Nhập địa chỉ vườn..."
                                                     label="Địa chỉ"
                                                     additionLabelClassName="fs-5 fw-bold"
                                                     fieldHelper={formik.getFieldHelpers(
@@ -444,7 +444,7 @@ function Dashboard(props) {
                                             </div>
                                             <AppButton
                                                 className="btn-blue mt-5 w-100"
-                                                text="Thêm nhà"
+                                                text="Thêm vườn"
                                             />
                                         </div>
                                     </form>

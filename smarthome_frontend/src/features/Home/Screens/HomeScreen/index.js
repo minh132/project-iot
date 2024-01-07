@@ -127,8 +127,8 @@ function HomeScreen(props) {
                 </div>
                 
                 <DialogModal
-                    title="Xóa nhà"
-                    description={`Bạn có chắc muốn xóa nhà [${currentHome?.name}]`}
+                    title="Xóa vườn"
+                    description={`Bạn có chắc muốn xóa vườn [${currentHome?.name}]`}
                     show={showModalDeleteHome}
                     close={!isDeletingHome}
                     onClose={() => setShowModalDeleteHome(false)}

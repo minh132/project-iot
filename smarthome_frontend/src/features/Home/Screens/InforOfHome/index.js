@@ -126,7 +126,7 @@ function InforOfHome(props) {
                             <div className="col-lg-8 pb-1">
                                 <BaseTextField
                                     name="address"
-                                    placeholder="Nhập địa chỉ nhà..."
+                                    placeholder="Nhập địa chỉ vườn..."
                                     fieldHelper={formik.getFieldHelpers(
                                         "address"
                                     )}

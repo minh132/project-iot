@@ -81,7 +81,7 @@ function SideBar(props) {
                     >
                         <div
                             className="MenuItemHome d-flex align-items-center"
-                            title="Nhà"
+                            title="Vườn"
                         >
                             <i
                                 className="fas fa-house-user"
