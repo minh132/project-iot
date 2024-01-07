@@ -7,11 +7,11 @@ const AppData = {
     ],
     //category
     categoryOptions: [
-        { value: "security", text: "An ninh gia đình" },
-        { value: "powerSwitch", text: "Công tắc nguồn điện" },
-        { value: "lightEquipment", text: "Thiết bị đèn" },
+        // { value: "security", text: "An ninh gia đình" },
+        // { value: "powerSwitch", text: "Công tắc nguồn điện" },
+        // { value: "lightEquipment", text: "Thiết bị đèn" },
         { value: "sensor", text: "Cảm biến" },
-        { value: "electricalEquipment", text: "Thiết bị điện môi trường" },
+        // { value: "electricalEquipment", text: "Thiết bị điện môi trường" },
     ],
     //channel
     channelOptions: [
@@ -110,21 +110,21 @@ const AppData = {
             text: "Nhiệt độ, độ ẩm",
             image: require("../../assets/images/nhietdo.png"),
         },
-        {
-            value: "Cảm biến ánh sáng",
-            text: "Cảm biến ánh sáng",
-            image: require("../../assets/images/anhsang.png"),
-        },
-        {
-            value: "Cảm biến khói",
-            text: "Cảm biến khói",
-            image: require("../../assets/images/khoi.png"),
-        },
-        {
-            value: "Cảm biến động tĩnh",
-            text: "Cảm biến động tĩnh",
-            image: require("../../assets/images/dongtinh.png"),
-        },
+        // {
+        //     value: "Cảm biến ánh sáng",
+        //     text: "Cảm biến ánh sáng",
+        //     image: require("../../assets/images/anhsang.png"),
+        // },
+        // {
+        //     value: "Cảm biến khói",
+        //     text: "Cảm biến khói",
+        //     image: require("../../assets/images/khoi.png"),
+        // },
+        // {
+        //     value: "Cảm biến động tĩnh",
+        //     text: "Cảm biến động tĩnh",
+        //     image: require("../../assets/images/dongtinh.png"),
+        // },
     ],
     electricalEquipment: [
         {

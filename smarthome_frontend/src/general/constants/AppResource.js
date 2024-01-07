@@ -9,7 +9,7 @@ const AppResource = {
    imgNoData: require('assets/images/img_no_data.png'),
    imgSignIn: require('assets/images/ImageLogin.png'),
    imgSignUp: require('assets/images/ImageRegister.png'),
-   imgDefaultAvatar: require('assets/images/img_default_avatar.jpg'),
+   imgDefaultAvatar: require('assets/images/avatar.png'),
    imgPageNotFound: require('assets/images/Page-not-found.png'),
    noDataContact: require("assets/images/empty.svg"),
   },

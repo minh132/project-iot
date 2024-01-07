@@ -94,7 +94,7 @@ function SideBar(props) {
                                     !showSideBar && "SideBar_active"
                                 }`}
                             >
-                                <b className="pr-2">Nhà:</b> {currentHome?.name}
+                                <b className="pr-2">Vườn:</b> {currentHome?.name}
                             </div>
                             <div
                                 className={`ArrowItem ${
@@ -112,7 +112,7 @@ function SideBar(props) {
                                 : handleNavigate("/")
                         }
                     >
-                        <div
+                        {/* <div
                             className={`MenuItem d-flex align-items-center ${
                                 selected === "rooms-list" && "MenuItem_active"
                             }`}
@@ -126,7 +126,7 @@ function SideBar(props) {
                             >
                                 Danh sách phòng
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div
                         onClick={() =>
@@ -135,7 +135,7 @@ function SideBar(props) {
                                 : handleNavigate("/")
                         }
                     >
-                        <div
+                        {/* <div
                             className={`MenuItem d-flex align-items-center ${
                                 selected === "devices-list" && "MenuItem_active"
                             }`}
@@ -149,7 +149,7 @@ function SideBar(props) {
                             >
                                 Danh sách thiết bị
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     {/* <div
                         onClick={() =>

@@ -12,7 +12,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Avatar from "../../assets/images/avatar.png";
 import * as Yup from "yup";
-import BackgroundAccount from "../../assets/images/smart-home.png";
+import BackgroundAccount from "../../assets/images/auto_watering.png";
 import "./style.scss";
 import AppButton from "general/components/AppButton";
 import BaseTextField from "general/components/Form/BaseTextField";
@@ -232,7 +232,7 @@ function Dashboard(props) {
                                                         <td>
                                                             {item.homeAddress}
                                                         </td>
-                                                        <td>Chủ nhà</td>
+                                                        <td>Chủ khu vườn</td>
                                                         <td>
                                                             <button
                                                                 className="ButtonPrimary"
