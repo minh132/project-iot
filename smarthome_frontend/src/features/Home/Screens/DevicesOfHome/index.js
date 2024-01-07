@@ -65,7 +65,7 @@ function DevicesOfHome(props) {
                                     <th>STT</th>
                                     <th>Tên thiết bị</th>
                                     <th>Loại</th>
-                                    <th>Phòng</th>
+                                    <th>Khu vực</th>
                                     <th>Thực hiện</th>
                                 </tr>
                             </thead>

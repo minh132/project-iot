@@ -190,7 +190,7 @@ function HeaderLandingPage(props) {
                                 to="/dashboard"
                             >
                                 <i className="fas fa-house-user mr-4"></i>
-                                Quản lý nhà
+                                Quản lý vườn
                             </NavLink>
                         </li>
                         <li>

@@ -64,8 +64,7 @@ function SignInScreen(props) {
 
     return (
         <div className="SignInScreen min-vh-100 bg-light">
-            <div className="LogoSignIn">
-               <LogoBigLight/> 
+            <div className="LogoSignIn"> 
             </div>
             <form className="SignInForm" onSubmit={formik.handleSubmit}>
                 <div>

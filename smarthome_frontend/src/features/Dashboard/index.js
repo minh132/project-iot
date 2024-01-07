@@ -219,7 +219,7 @@ function Dashboard(props) {
                                         <BootstrapTable className="BootstrapTable" striped bordered hover responsive>
                                             <thead>
                                                 <tr>
-                                                    <th>Nhà</th>
+                                                    <th>Vườn</th>
                                                     <th>Địa chỉ</th>
                                                     <th>Trạng thái</th>
                                                     <th>Thực hiện</th>
@@ -269,7 +269,7 @@ function Dashboard(props) {
                                         <BootstrapTable className="BootstrapTable" striped bordered hover>
                                             <thead>
                                                 <tr>
-                                                    <th>Nhà</th>
+                                                    <th>Vườn</th>
                                                     <th>Địa chỉ</th>
                                                     <th>Trạng thái</th>
                                                     <th>Thực hiện</th>
@@ -340,7 +340,7 @@ function Dashboard(props) {
                                             >
                                                 <thead>
                                                     <tr>
-                                                        <th>Nhà</th>
+                                                        <th>Vườn</th>
                                                         <th>Địa chỉ</th>
                                                         <th>Thực hiện</th>
                                                     </tr>
@@ -406,7 +406,7 @@ function Dashboard(props) {
                                                     textAlign: "center",
                                                 }}
                                             >
-                                                Thêm nhà mới
+                                                Thêm vườn mới
                                             </h1>
                                             <div>
                                                 <BaseTextField

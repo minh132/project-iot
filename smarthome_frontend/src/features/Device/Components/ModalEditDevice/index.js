@@ -165,7 +165,7 @@ function ModalEditDevice(props) {
                                 </div>
                                 <div className="d-flex flex-column mt-5 p-7 p-lg-10 border-1 bg-white shadow-sm rounded">
                                     <div className="fs-5 fw-bold mb-3">
-                                        Chọn phòng
+                                        Chọn khu
                                     </div>
                                     <div>
                                         <BaseDropdown

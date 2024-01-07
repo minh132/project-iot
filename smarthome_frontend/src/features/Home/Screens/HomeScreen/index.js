@@ -122,7 +122,7 @@ function HomeScreen(props) {
                         className="ButtonDanger w-100"
                         onClick={() => setShowModalDeleteHome(true)}
                     >
-                        Xóa nhà này
+                        Xóa vườn này
                     </button>
                 </div>
                 

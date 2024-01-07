@@ -42,7 +42,7 @@ function ModalCreateRoom(props) {
                 if (res.payload.result === "success") {
                     handleClose();
                     formik.handleReset();
-                    ToastHelper.showSuccess("Thêm phòng mới thành công");
+                    ToastHelper.showSuccess("Thêm khu vực mới thành công");
                     await dispatch(thunkGetRoomsList({ homeId: homeId }));
                 }
             } catch (err) {
@@ -52,7 +52,7 @@ function ModalCreateRoom(props) {
         validationSchema: Yup.object({
             newName: Yup.string()
                 .trim()
-                .required("Bạn chưa nhập tên phòng"),
+                .required("Bạn chưa nhập tên khu vực"),
         }),
     });
 
@@ -74,7 +74,7 @@ function ModalCreateRoom(props) {
             >
                 {/* header */}
                 <Modal.Header className="px-5 py-5 d-flex align-items-center justify-content-center position-relative">
-                    <Modal.Title className="">Thêm phòng mới</Modal.Title>
+                    <Modal.Title className="">Thêm khu vực mới</Modal.Title>
                     <div
                         className="btn btn-xs btn-icon btn-light btn-hover-secondary cursor-pointer position-absolute right-0 mr-5"
                         onClick={handleClose}
@@ -92,7 +92,7 @@ function ModalCreateRoom(props) {
                                         <BaseTextField
                                             require={true}
                                             name="newName"
-                                            placeholder="Nhập tên phòng mới..."
+                                            placeholder="Nhập tên vườn mới..."
                                             label="Tên phòng mới"
                                             fieldHelper={formik.getFieldHelpers(
                                                 "newName"
@@ -132,7 +132,7 @@ function ModalCreateRoom(props) {
                                     <span className="spinner spinner-loader spinner-white"></span>
                                 </div>
                             ) : (
-                                <div>Thêm phòng</div>
+                                <div>Thêm khu vực</div>
                             )}
                         </Button>
                     </div>

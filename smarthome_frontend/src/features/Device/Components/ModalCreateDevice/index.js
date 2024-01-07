@@ -89,7 +89,7 @@ function ModalCreateDevice(props) {
             deviceName: Yup.string()
                 .trim()
                 .required("Bạn chưa nhập tên thiết bị mới"),
-            roomId: Yup.string().trim().required("Bạn chưa chọn phòng"),
+            roomId: Yup.string().trim().required("Bạn chưa chọn khu"),
         }),
     });
 
@@ -230,7 +230,7 @@ function ModalCreateDevice(props) {
                             <div>
                                 <div className="d-flex flex-column mt-5 p-7 p-lg-10 border-1 bg-white shadow-sm rounded">
                                     <div className="fs-5 fw-bold mb-3">
-                                        Chọn phòng
+                                        Chọn khu
                                     </div>
                                     <div>
                                         <BaseDropdown

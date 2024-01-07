@@ -326,15 +326,15 @@ function Account(props) {
                     <div className="card card-flush mb-9">
                         <div className="card-header">
                             <div className="font-weight-bolder font-size-h3 text-remaining">
-                                Danh sách nhà
+                                Danh sách vườn
                             </div>
                             {ownerList?.length > 0 ? (
                                 <div className="font-weight-bolder text-black-50 font-size-lg text-remaining">
-                                    Tổng cộng: {ownerList?.length} nhà
+                                    Tổng cộng: {ownerList?.length} vườn
                                 </div>
                             ) : (
                                 <div className="font-weight-bolder text-black-50 font-size-lg text-remaining">
-                                    Danh sách trống
+                                    Danh sách vườn đang yêu cầu
                                 </div>
                             )}
                         </div>
@@ -343,7 +343,7 @@ function Account(props) {
                                 <BootstrapTable className="BootstrapTable" striped bordered hover>
                                     <thead>
                                         <tr>
-                                            <th>Nhà</th>
+                                            <th>Vườn</th>
                                             <th>Địa chỉ</th>
                                             <th>Thực hiện</th>
                                         </tr>
@@ -382,11 +382,11 @@ function Account(props) {
                     <div className="card card-flush mb-9">
                         <div className="card-header">
                             <div className="font-weight-bolder font-size-h3 text-remaining">
-                                Danh sách nhà đang yêu cầu
+                                Danh sách vườn đang yêu cầu
                             </div>
                             {requestingList?.length > 0 ? (
                                 <div className="font-weight-bolder text-black-50 font-size-lg text-remaining">
-                                    Tổng cộng: {requestingList?.length} nhà
+                                    Tổng cộng: {requestingList?.length} vườn
                                 </div>
                             ) : (
                                 <div className="font-weight-bolder text-black-50 font-size-lg text-remaining">
@@ -399,7 +399,7 @@ function Account(props) {
                                 <BootstrapTable className="BootstrapTable"striped bordered hover>
                                     <thead>
                                         <tr>
-                                            <th>Nhà</th>
+                                            <th>Vườn</th>
                                             <th>Địa chỉ</th>
                                             <th>Thực hiện</th>
                                         </tr>

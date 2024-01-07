@@ -8,7 +8,7 @@ import moment from 'moment';
 const UserHelper = {
     // Get random avatar url
     getRandomAvatarUrl: () => {
-        return 'https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-portrait-176256935.jpg';
+        return 'https://i.ibb.co/8XSJPTb/avatar.jpg';
     },
 
     // Check access token valid

@@ -43,7 +43,7 @@ function ModalEditRoom(props) {
                 if (res.payload.result === "success") {
                     handleClose();
                     formik.handleReset();
-                    ToastHelper.showSuccess("Sửa thông tin phòng thành công");
+                    ToastHelper.showSuccess("Sửa thông tin khu vực thành công");
                     await dispatch(thunkGetRoomsList({ homeId: currentHome._id }));
                 }
             } catch (err) {
@@ -53,7 +53,7 @@ function ModalEditRoom(props) {
         validationSchema: Yup.object({
             newName: Yup.string()
                 .trim()
-                .required("Bạn chưa nhập tên phòng"),
+                .required("Bạn chưa nhập tên khu vực"),
         }),
     });
 
@@ -81,7 +81,7 @@ function ModalEditRoom(props) {
             >
                 {/* header */}
                 <Modal.Header className="px-5 py-5 d-flex align-items-center justify-content-center position-relative">
-                    <Modal.Title className="">Chỉnh sửa thông tin phòng</Modal.Title>
+                    <Modal.Title className="">Chỉnh sửa thông tin khu vực</Modal.Title>
                     <div
                         className="btn btn-xs btn-icon btn-light btn-hover-secondary cursor-pointer position-absolute right-0 mr-5"
                         onClick={handleClose}

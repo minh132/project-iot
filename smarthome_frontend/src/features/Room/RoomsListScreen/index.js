@@ -44,7 +44,7 @@ function RoomsListScreen(props) {
     });
 
     useEffect(() => {
-        document.title = "Trang danh sách phòng | AUTOWATERING";
+        document.title = "Trang danh sách khu vực | AUTOWATERING";
     }, []);
 
     useEffect(() => {
@@ -86,7 +86,7 @@ function RoomsListScreen(props) {
                                 className="ButtonPrimary"
                                 onClick={() => setShowModalCreateRoom(true)}
                             >
-                                Thêm phòng
+                                Thêm khu vực
                             </button>
                         </div>
                     </div>
