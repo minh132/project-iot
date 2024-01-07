@@ -135,7 +135,7 @@ function SideBar(props) {
                                 : handleNavigate("/")
                         }
                     >
-                        {/* <div
+                        <div
                             className={`MenuItem d-flex align-items-center ${
                                 selected === "devices-list" && "MenuItem_active"
                             }`}
@@ -149,7 +149,7 @@ function SideBar(props) {
                             >
                                 Danh sách thiết bị
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                     {/* <div
                         onClick={() =>

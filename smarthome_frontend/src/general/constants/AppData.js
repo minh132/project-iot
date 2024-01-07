@@ -9,7 +9,7 @@ const AppData = {
     categoryOptions: [
         // { value: "security", text: "An ninh gia đình" },
         // { value: "powerSwitch", text: "Công tắc nguồn điện" },
-        // { value: "lightEquipment", text: "Thiết bị đèn" },
+        { value: "lightEquipment", text: "Bơm nước" },
         { value: "sensor", text: "Cảm biến" },
         // { value: "electricalEquipment", text: "Thiết bị điện môi trường" },
     ],
@@ -85,24 +85,24 @@ const AppData = {
     lightEquipment: [
         {
             value: "Bóng đèn",
-            text: "Bóng đèn",
-            image: require("../../assets/images/bongden.png"),
+            text: "Bơm nước",
+            image: require("../../assets/images/maybom.jpg"),
         },
-        {
-            value: "Dải đèn",
-            text: "Dải đèn",
-            image: require("../../assets/images/daiden.png"),
-        },
-        {
-            value: "Đèn bàn",
-            text: "Đèn bàn",
-            image: require("../../assets/images/denban.png"),
-        },
-        {
-            value: "Đèn ngủ",
-            text: "Đèn ngủ",
-            image: require("../../assets/images/denngu.png"),
-        },
+        // {
+        //     value: "Dải đèn",
+        //     text: "Dải đèn",
+        //     image: require("../../assets/images/daiden.png"),
+        // },
+        // {
+        //     value: "Đèn bàn",
+        //     text: "Đèn bàn",
+        //     image: require("../../assets/images/denban.png"),
+        // },
+        // {
+        //     value: "Đèn ngủ",
+        //     text: "Đèn ngủ",
+        //     image: require("../../assets/images/denngu.png"),
+        // },
     ],
     sensor: [
         {
