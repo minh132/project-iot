@@ -89,7 +89,7 @@ const roomController = {
             //Thông báo thành công
             return res.send({
                 result: "success",
-                message: "Xóa khu vực thành công"
+                message: "Xóa phòng thành công"
             });
         } catch (error) {
             res.send({

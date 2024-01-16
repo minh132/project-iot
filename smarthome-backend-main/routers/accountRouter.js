@@ -3,7 +3,6 @@ const router = express.Router()
 const accountController = require('../controllers/accountController')
 const uploadCloud =  require('../utils/cloudinary')
 
-
 //sign up
 router.post('/api/account/sign-up', accountController.signUp);
 

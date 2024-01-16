@@ -1,8 +1,11 @@
 const mqtt = require("mqtt");
-const broker = "mqtt://broker.hivemq.com:1883";
+const broker = "mqtts://5233f9fd02c24818937557bb15993b3f.s2.eu.hivemq.cloud:8883";
 const topic = "/control_device";
 const Device = require("../models/Devices");
-const options = {};
+const options = {
+    username: 'iot-sensor', 
+    password: '27082002' 
+};
 const client = mqtt.connect(broker, options);
 const Room = require("../models/Rooms");
 const Account = require("../models/Accounts");
