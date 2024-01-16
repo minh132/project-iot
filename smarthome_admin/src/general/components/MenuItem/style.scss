@@ -1,0 +1,26 @@
+.MenuItem{
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    letter-spacing: 0.03rem;
+    transition: ease 0.2s;
+    i{
+        color: #fff;
+    }
+    .MenuItemName{
+        font-weight: 450;
+    }
+
+    &:hover{
+        background-color: #e0751e;
+    }
+
+    &_active{
+        color: #fff;
+        background-color:#e0751e;
+        .MenuItemName{
+            font-weight: 650;
+        }
+    }
+}
