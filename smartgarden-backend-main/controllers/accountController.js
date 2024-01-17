@@ -1,5 +1,5 @@
 const Device = require("../models/Devices");
-const garden = require("../models/gardens");
+const garden = require("../models/Gardens");
 const Room = require("../models/Rooms");
 const Account = require("../models/Accounts");
 const utils = require("../utils");

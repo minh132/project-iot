@@ -6,7 +6,7 @@ const router = express.Router()
 router.post('/api/garden/create', gardenController.creategarden);
 
 //delete garden
-router.delete('/api/garden/delete', gardenController.deletegarden);
+router.delete('/api/garden/delete', gardenController.deleteGarden);
 
 //update garden data
 router.put('/api/garden/update', gardenController.updategardenData);
@@ -15,7 +15,7 @@ router.put('/api/garden/update', gardenController.updategardenData);
 router.get('/api/garden/detail', gardenController.getgardenData);
 
 //get other gardens list
-router.get('/api/garden/find', gardenController.getOthergardensList);
+router.get('/api/garden/find', gardenController.getOtherGardensList);
 
 //request to join garden
 router.post('/api/garden/request-to-join-garden', gardenController.requestToJoingarden);
